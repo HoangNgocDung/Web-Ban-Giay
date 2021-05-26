@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url("giay1.jpg");
+    background-size: contain;
+    background-position: right;
+    position: relative;
+}
+
+
+.logo{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    padding: 20px 25px;
+    cursor: pointer;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+nav {
+    float: right;
+    margin-right: 100px;
+    margin-top: -40px;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a{
+    font-size: 18px;
+}
+
+
+.thanh {
+    width: 85%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+}
+
+a {
+    padding: 10px 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.noidung {
+    position: absolute;
+    top: 38%;
+    left: 5%;
+    color: white;
+}
+
+.noidung h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    margin: 10px 0 30px;
+    line-height: 80px;
+}
+
+.title {
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+
+.title::after {
+    content: '';
+    background: #ffd6d6;
+    width: 120px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.categories {
+    margin: 50px 0;
+}
+
+.col-3 {
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 50px;
+}
+
+.col-3 img {
+    width: 100%;
+}
+
+.small-container {
+    width: 1080px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.col-4 {
+    margin-left: 5%;
+    flex-basis: 20%;
+    min-width: 200px;
+    margin-bottom: 90px;
+    transition: transform 0.5s;
+}
+
+.col-4 img {
+    width: 100%;    
+}
+
+.col-4:hover {
+    transform: translateY(-5px);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h3, p {
+    text-align: center;
+}
+
+.footer {
+    background: #494a48;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    padding: 40px 0 20px;
+}
+
+.footer > .contain > .row > .footer-col-1 > a > img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    padding: 20px 25px;
+    cursor: pointer;
+}
+
+.footer p {
+    color: white;
+}
+
+.footer h4 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4 {
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+
+.offer {
+    background: radial-gradient(#fff, #ffd6d6);
+    margin-bottom: 80px;
+}
+
+.offer p {
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.offer h2 {
+    text-align: left;
+    font-size: 80px;
+}
+
+.offer button {
+    background: #300e0e;
+}
+
+.dangky {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.dangky input {
+    text-align: center;
+    width: 400px;
+    border: none;
+    height: 40px;
+}
+
+.dangky button {
+    padding: 12px;
+    background: #bf7d0d;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+
